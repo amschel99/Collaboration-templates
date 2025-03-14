@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A[Config File] -->|Load Settings| B[P2P Node]
     B -->|Create Identity| C[Local Peer ID]
@@ -13,3 +14,4 @@ graph TD
     E -->|Communicate| J
     B -->|Auto Messages| M[Message Generator]
     M -->|Send| J
+```
